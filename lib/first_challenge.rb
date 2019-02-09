@@ -15,7 +15,7 @@ def first_challenge
 
   #your code here
   
-  
+  contacts["freddy Mercury"].each do |attribute, data|
   
   
   
