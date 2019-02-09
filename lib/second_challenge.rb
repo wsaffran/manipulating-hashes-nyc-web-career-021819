@@ -9,9 +9,7 @@ def second_challenge
   #code your solution here!
   
   groceries.each do |category, item_list|
-    category.collect do |item_list, item|
-      item
-    end
+    item_list.values
   end
   
 
