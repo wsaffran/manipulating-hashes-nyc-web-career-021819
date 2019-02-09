@@ -8,7 +8,7 @@ def second_challenge
 
   #code your solution here!
   
-  groceries.each |category, item_list|
+  groceries.each do |category, item_list|
     category.collect do |item_list, item|
       item
     end
